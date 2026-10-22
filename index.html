@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Willian Soares — desenvolvimento backend, Python, Java e SQL.">
+  <title>Willian Soares | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Willian Soares, início"><span class="brand-mark">&lt;/&gt;</span>
+        Willian<span>Soares</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema" title="Alternar tema">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">OLÁ, EU SOU</p>
+          <h1>Willian <span>Soares</span></h1>
+          <h2>Desenvolvedor em evolução <span class="typing-cursor">|</span></h2>
+          <p class="hero-description">Analista de Suporte N2 com experiência em sistemas e bancos de dados. Estudando e
+            desenvolvendo soluções com Python, Java, SQL e tecnologias web.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver meus projetos <span>↗</span></a>
+            <a class="button button-outline" href="#contato">Entrar em contato</a>
+          </div>
+          <div class="social-links">
+            <!-- Troque os links abaixo pelos seus perfis reais -->
+            <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <a href="mailto:seuemail@exemplo.com" aria-label="Enviar e-mail">@</a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Ilustração de código">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-window">
+            <div class="window-dots"><i></i><i></i><i></i><span>meu_portfolio.py</span></div>
+            <pre><code><span class="code-purple">class</span> <span class="code-yellow">Developer</span>:
+    <span class="code-purple">def</span> <span class="code-blue">__init__</span>(self):
+        self.name = <span class="code-green">"Willian"</span>
+        self.focus = [
+            <span class="code-green">"Python"</span>,
+            <span class="code-green">"HTML & CSS"</span>,
+            <span class="code-green">"Java Script"</span>,
+            <span class="code-green">"SQL SERVER"</span>
+        ]
+
+    <span class="code-purple">def</span> <span class="code-blue">keep_learning</span>(self):
+        <span class="code-purple">return</span> <span class="code-green">"Sempre evoluindo."</span></code></pre>
+          </div>
+          <div class="floating-chip chip-python"><span>Py</span> Python</div>
+          <div class="floating-chip chip-sql"><span>DB</span> SQL</div>
+          <div class="hero-glow"></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Rolar para sobre">↓</a>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">UM POUCO SOBRE MIM</p>
+          <h2>Construindo soluções <span>com propósito.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>Sou profissional de tecnologia, atuando com suporte de sistemas e análise de problemas. No dia a dia, a
+              lógica, os dados e a busca por soluções eficientes fazem parte da minha rotina.</p>
+            <p>Estou aprofundando meus conhecimentos em desenvolvimento, principalmente com Python, Java e SQL, criando
+              projetos práticos para transformar aprendizado em experiência.</p>
+            <a class="text-link" href="#contato">Vamos conversar <span>→</span></a>
+          </div>
+          <div class="about-facts reveal">
+            <article class="fact-card"><span class="fact-icon">⌘</span>
+              <div>
+                <h3>Suporte N2</h3>
+                <p>Diagnóstico e resolução de problemas em sistemas.</p>
+              </div>
+            </article>
+            <article class="fact-card"><span class="fact-icon">{ }</span>
+              <div>
+                <h3>Desenvolvimento</h3>
+                <p>Projetos práticos e aprendizado contínuo.</p>
+              </div>
+            </article>
+            <article class="fact-card"><span class="fact-icon">▤</span>
+              <div>
+                <h3>Banco de dados</h3>
+                <p>Consultas SQL e organização de informações.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MINHA CAIXA DE FERRAMENTAS</p>
+          <h2>Habilidades <span>técnicas</span></h2>
+          <p class="section-subtitle">
+            Tecnologias que utilizo ou venho estudando na minha jornada,
+            estudando pela <a href="https://www.dio.me/" target="_blank" rel="noopener noreferrer">DIO</a>.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-symbol python">Py</span><span class="skill-level">Em estudo</span>
+            </div>
+            <h3>Python</h3>
+            <p>Scripts, lógica, funções e integração com SQLite.</p>
+            <div class="skill-track"><span style="width:65%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-symbol java">J</span><span
+                class="skill-level">Conhecimentos</span></div>
+            <h3>Java</h3>
+            <p>Fundamentos de programação orientada a objetos.</p>
+            <div class="skill-track"><span style="width:01%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-symbol sql">DB</span><span class="skill-level">Experiência</span>
+            </div>
+            <h3>SQL / SQL Server</h3>
+            <p>Consultas, filtros, atualizações e análise de dados.</p>
+            <div class="skill-track"><span style="width:75%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-symbol html">5</span><span class="skill-level">Em estudo</span>
+            </div>
+            <h3>HTML &amp; CSS</h3>
+            <p>Estruturação de páginas e interfaces responsivas.</p>
+            <div class="skill-track"><span style="width:55%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-symbol js">JS</span><span class="skill-level">Em estudo</span>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Interatividade e comportamento para páginas web.</p>
+            <div class="skill-track"><span style="width:40%"></span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-symbol git">⌁</span><span class="skill-level">Em prática</span>
+            </div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Versionamento e organização de projetos.</p>
+            <div class="skill-track"><span style="width:45%"></span></div>
+          </article>
+        </div>
+        <p class="skills-note">As barras são ilustrativas. Ajuste os níveis conforme sua experiência real.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">O QUE ESTOU CONSTRUINDO</p>
+          <h2>Projetos em <span>destaque</span></h2>
+          <p class="section-subtitle">Exemplos de projetos para apresentar suas habilidades. Substitua pelos seus
+            repositórios quando estiverem publicados.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual visual-database"><span class="visual-icon">▤</span><span
+                class="visual-label">PYTHON · SQLITE</span>
+              <div class="visual-lines"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Python</span><span>SQLite</span><span>Tkinter</span></div>
+              <h3>Cadastro de funcionários</h3>
+              <p>Aplicação CRUD para cadastrar, consultar, editar e excluir funcionários em um banco SQLite.</p><a
+                class="project-link" href="#contato">Adicionar repositório <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-database"><span class="visual-icon">▤</span><span
+                class="visual-label">PYTHON · SQLITE</span>
+              <div class="visual-lines"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Python</span><span>SQLite</span><span>Tkinter</span></div>
+              <h3>Cadastro de funcionários</h3>
+              <p>Aplicação CRUD para cadastrar, consultar, editar e excluir funcionários em um banco SQLite.</p><a
+                class="project-link" href="#contato">Adicionar repositório <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-database"><span class="visual-icon">▤</span><span
+                class="visual-label">PYTHON · SQLITE</span>
+              <div class="visual-lines"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Python</span><span>SQLite</span><span>Tkinter</span></div>
+              <h3>Cadastro de funcionários</h3>
+              <p>Aplicação CRUD para cadastrar, consultar, editar e excluir funcionários em um banco SQLite.</p><a
+                class="project-link" href="#contato">Adicionar repositório <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-database"><span class="visual-icon">▤</span><span
+                class="visual-label">PYTHON · SQLITE</span>
+              <div class="visual-lines"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>Python</span><span>SQLite</span><span>Tkinter</span></div>
+              <h3>Cadastro de funcionários</h3>
+              <p>Aplicação CRUD para cadastrar, consultar, editar e excluir funcionários em um banco SQLite.</p><a
+                class="project-link" href="#contato">Adicionar repositório <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-query"><span class="visual-icon">⌘</span><span class="visual-label">SQL ·
+                DATABASE</span>
+              <div class="query-block"><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>SQL</span><span>Banco de dados</span></div>
+              <h3>Consultas e relatórios SQL</h3>
+              <p>Exercícios de consultas, filtros e análise de dados para apoiar tarefas de sistemas.</p><a
+                class="project-link" href="#contato">Adicionar repositório <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-web"><span class="visual-icon">&lt;/&gt;</span><span
+                class="visual-label">HTML · CSS · JS</span>
+              <div class="web-block"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <h3>Portfólio pessoal</h3>
+              <p>Site responsivo para apresentar habilidades, projetos e informações de contato.</p><a
+                class="project-link" href="#inicio">Ver esta página <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">VAMOS CONVERSAR</p>
+          <h2>Tem uma oportunidade ou <span>ideia?</span></h2>
+          <p>Estou aberto a trocar experiências, conhecer projetos e conversar sobre oportunidades na área de
+            tecnologia.</p>
+          <div class="contact-detail"><span>✉</span>
+            <div><small>E-mail</small><a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></div>
+          </div>
+          <div class="contact-detail"><span>⌖</span>
+            <div><small>Localização</small>
+              <p>Brasil</p>
+            </div>
+          </div>
+          <p class="contact-hint">Lembre-se de trocar o e-mail de exemplo pelo seu endereço real.</p>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <h3>Envie uma mensagem</h3>
+          <label for="name">Seu nome</label><input id="name" name="name" type="text" placeholder="Como você se chama?"
+            required>
+          <label for="email">Seu e-mail</label><input id="email" name="email" type="email"
+            placeholder="voce@exemplo.com" required>
+          <label for="message">Mensagem</label><textarea id="message" name="message" rows="4"
+            placeholder="Conte um pouco sobre sua ideia..." required></textarea>
+          <button class="button button-primary submit-button" type="submit">Preparar e-mail <span>↗</span></button>
+          <p class="form-note" id="form-note">O formulário abrirá seu aplicativo de e-mail; não envia mensagens
+            diretamente pelo site.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark">&lt;/&gt;</span>
+        Willian<span>Soares</span></a>
+      <p>Feito com foco, café e código. © <span id="year"></span> Willian Soares.</p><a class="back-top" href="#inicio"
+        aria-label="Voltar ao topo">↑</a>
+    </div>
+  </footer>
+</body>
+
+</html>
